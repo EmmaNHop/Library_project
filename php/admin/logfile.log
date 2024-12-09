@@ -1,0 +1,23 @@
+Database error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'2024/12/0606:31:44amRegistration successful!2024/12/0606:33:40amRegistration successful! <br>2024/12/0606:34:37amRegistration successful! <br>2024/12/0606:36:23amRegistration successful! 
+2024/12/0606:36:50amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:36:54amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:36:59amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:37:29amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:38:57amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:39:37amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:39:54amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:41:52amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:42:00amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'PRIMARY'
+2024/12/0606:42:09amRegistration successful! 
+2024/12/0606:46:18amDatabase error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'q' for key 'PRIMARY'
+2024/12/0606:46:55amDatabase error: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+2024/12/0606:46:59amDatabase error: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+2024/12/06	06:49:19am	 Database error: SQLSTATE[21S01]: Insert value list does not match column list: 1136 Column count doesn't match value count at row 1
+2024/12/06	06:53:48amRegistration successful! 
+2024/12/06	06:55:06am	 Database error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'x' for key 'PRIMARY'
+2024/12/06	06:55:12amRegistration successful! 
+2024/12/06	06:56:04am	 Database error: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'l' for key 'PRIMARY'
+2024/12/06	06:56:13am	Registration successful!
+2024/12/06	07:00:48am	Registration successful!
+2024/12/06	07:01:26am	Registration successful!
+2024/12/06	07:05:23am	Registration successful!

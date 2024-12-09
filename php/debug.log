@@ -1,0 +1,92 @@
+Title: Harry Potter and the Philosopher's Stone Author: J. K. RowlingDebugging started...POST Data: Array
+(
+    [title] => Twilight
+    [author] => Stephenie Meyer
+    [cover_url] => https://covers.openlibrary.org/b/id/12641977-L.jpg
+    [publish_year] => 2005
+    [description] => No description available
+    [id] => /works/OL5720023W
+    [username] => $user
+    [list] => want_to_read
+)
+Validation Error: An error occurred. Please try again.
+Debugging started...POST Data: Array
+(
+    [title] => Eclipse
+    [author] => Stephenie Meyer, Stephenie Meyer
+    [cover_url] => https://covers.openlibrary.org/b/id/12643410-L.jpg
+    [publish_year] => 2006
+    [description] => No description available
+    [id] => /works/OL5720025W
+    [username] => $user
+    [list] => want_to_read
+)
+Validation Error: An error occurred. Please try again.
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: Array
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: Array
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: Array
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: Array
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Session variable: Array
+(
+    [username] => emmmma
+    [email] => e@mm.a
+    [profile_picture] => 
+)
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Session variable: Array
+(
+    [username] => emmmma
+    [email] => e@mm.a
+    [profile_picture] => 
+)
+Username: ArrayBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: Array
+Books Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: ArrayBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks Table Error: SQLSTATE[HY093]: Invalid parameter number
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaUsername: emmmmaUsername: emmmmaUsername: emmmmaBooks table updated: Harry Potter and the Prisoner of Azkaban (/works/OL82536W)
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks table updated: Harry Potter and the Goblet of Fire (/works/OL82560W)
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks table updated: Harry Potter and the Cursed Child (/works/OL17360811W)
+Lists Table Error: SQLSTATE[HY093]: Invalid parameter number
+Username: emmmmaBooks table updated: Harry Potter - Deluxe Coloring Book (/works/OL17920096W)
+Lists table updated: /works/OL17920096W added to want_to_read for user emmmma
+Username: emmmmaBooks table updated: The Assassin’s Blade (/works/OL17546674W)
+Lists table updated: /works/OL17546674W added to want_to_read for user emmmma
+Username: emmmmaUsername: emmmmaBooks table updated: Harry Potter and the Philosopher's Stone (/works/OL82563W)
+Username: emmmmaBooks table updated: Harry Potter and the Philosopher's Stone (/works/OL82563W)
+Username: emmmmaBooks table updated: Harry Potter and the Order of the Phoenix (/works/OL82548W)
+Username: emmmmaBooks table updated: Harry Potter and the Prisoner of Azkaban (/works/OL82536W)

@@ -1,0 +1,254 @@
+
+
+body {
+    height: 100%;
+    background: rgb(0,0,0);
+    background: radial-gradient(circle, rgb(56, 105, 77) 0%, rgba(0,0,0,1) 100%);
+    font-family: 'Roboto', sans-serif;
+    
+    color: #fff;
+}
+
+hr.white-line {
+    border: 0; /* Remove default border */
+    border-top: 1px solid white; /* Create a white line */
+    margin: 20px 0; /* Add spacing above and below the line */
+  }
+  hr.grey-line {
+    border: 0; /* Remove default border */
+    border-top: 1px solid rgb(128, 128, 128); /* Create a white line */
+    margin: 20px 0; /* Add spacing above and below the line */
+  }
+
+
+
+.navbar { 
+    background-color: rgba(0, 0, 0, 0.144);
+    color: #fdfdfd;
+   
+}
+
+.main{
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Create 4 equal-width columns */
+    gap: 20px; /* Space between columns */
+    justify-items: center; /* Center the items within each column */
+}
+
+.column {
+    text-align: center;
+    padding: 0 1%;
+}
+
+/* Default grid layout for larger screens */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    padding: 0 2%;
+}
+
+.column t {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+/* Page Title */
+h1.page-title {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+/* Home Spacer */
+.search-spacer {
+    padding: 100px 20px 50px 20px;
+}
+
+.search-spacer form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+input {
+    border-radius: 25px;
+    border: none;
+    padding: 15px 25px;
+    color: #000;
+    border: 3pt solid #aaa;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+input:focus {
+    outline: none;
+    border: 3pt solid #fff;
+}
+
+.search-spacer input {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    text-align: center;
+
+  
+    bottom: 0;
+    left: 0;
+    font-weight: 300;
+}
+
+a {
+    color: #fff;
+}
+
+/* Book Match */
+.bookmatch {
+    text-align: center;
+    
+}
+
+.bookmatch img {
+    border-radius: 10px;
+    width: 150px;
+    margin: 0 auto;
+    border: 15px solid #fff;
+}
+
+.bookmatch {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-item {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.book-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Existing Styles */
+
+/* Loader (Spinny Circle) */
+.loader {
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border: 5px solid #f3f3f3; /* Light gray */
+    border-top: 5px solid #88b89a; /* Blue color for the top border */
+    border-radius: 50%; /* Makes it circular */
+    animation: spin 1s linear infinite; /* Spinning animation */
+}
+
+/* Spin animation */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0; /* Ensure the dropdown content stays within the viewport */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .row {
+        grid-template-columns: repeat(3, 1fr); /* 3 columns on medium screens */
+    }
+}
+
+@media (max-width: 992px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+    }
+    h1.page-title {
+        font-size: 2.5em; /* Smaller title on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        grid-template-columns: 1fr; /* 1 column on mobile screens */
+        justify-content: center;
+    }
+    .search-spacer {
+        padding: 50px 10px; /* Reduced padding for mobile */
+    }
+    .search-spacer input {
+        max-width: 90%; /* Input takes more width on smaller screens */
+        font-size: 1.2em;
+    }
+    h1.page-title {
+        font-size: 2em; /* Further reduce title size on mobile */
+    }
+    .book-item {
+        width: 90%; /* Make book items take up more space on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .search-spacer {
+        padding: 30px 10px; /* More padding adjustments for very small screens */
+    }
+    h1.page-title {
+        font-size: 1.8em; /* Further decrease title size */
+    }
+    .book-item {
+        width: 100%; /* Book items take full width on very small screens */
+    }
+}

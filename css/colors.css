@@ -1,0 +1,41 @@
+/* Custom Button Colors */
+.btn-custom-success {
+    background-color: rgb(56, 105, 77); /* Green */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom-success:hover {
+    background-color: rgb(47, 87, 64); /* Darker Green */
+  }
+  
+  .btn-custom-primary{
+    background-color: rgb(86, 70, 133); /* Blue */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom-primary:hover {
+    background-color: rgb(67, 55, 105); /* Darker Blue */
+  }
+  
+  .btn-custom-danger {
+    background-color: rgb(105, 56, 75); /* Red */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom-danger:hover {
+    background-color: rgb(77, 40, 54); /* Darker Red */
+  }
+  
+  .btn-custom-warning {
+    background-color: rgb(87, 87, 87); /* Orange */
+    color: white;
+    border: none;
+  }
+  
+  .btn-custom-warning:hover {
+    background-color: rgb(59, 59, 59); /* Darker Orange */
+  }
+  

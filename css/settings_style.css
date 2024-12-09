@@ -1,0 +1,181 @@
+.settings{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/* Set the background color and rounded corners for the navigation tabs */
+.nav-tabs .nav-link {
+    background-color:  rgba(55, 55, 55, 0.25);  /* Grey background for tab links */
+    color: white;               /* Text color white for contrast */
+    border-radius: 0.375rem;    /* Rounded corners */
+}
+
+/* Set the active tab background with rounded corners */
+.nav-tabs .nav-link.active {
+    background-color: rgba(55, 55, 55, 0.25);  /* Darker grey for active tab */
+    color: white;               /* Keep text color white */
+    border-radius: 0.375rem;    /* Rounded corners */
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-tabs .nav-link:hover{
+    background-color: rgba(73, 80, 87, 0.25);
+}
+
+/* Set the background color and rounded corners for the list group items */
+.list-group-item {
+    background-color:  rgba(55, 55, 55, 0.25);  /* Grey background for list items */
+    border-color: #6c757d;      /* Matching border color */
+    color: white;               /* Text color white */
+    border-radius: 0.375rem;    /* Rounded corners */
+}
+
+/* Set the hover effect for the list group items with rounded corners */
+.list-group-item:hover {
+    background-color: rgba(73, 80, 87, 0.25);  /* Darker grey on hover */
+    border-color: #495057;      /* Matching border color */
+    border-radius: 0.375rem;    /* Ensure rounded corners on hover */
+}
+
+/* Set the background for the list group container with rounded corners */
+.list-group {
+    background-color: rgba(55, 55, 55, 0.25);  /* Grey background for the whole list group */
+    border-radius: 0.375rem;    /* Rounded corners */
+}
+
+/* Set the background color and rounded corners for the switch inputs */
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: rgba(55, 55, 55, 0.25);  /* Dark grey background for checked switches */
+    border-color: #495057;      /* Border color for checked switches */
+    border-radius: 1rem;        /* Rounded corners for the switch handle */
+}
+
+/* Custom styles to make the switch bigger */
+.form-check-input {
+  transform: scale(1); /* Increase the size of the switch */
+  width: 3rem;
+  height: 1.5rem;
+  
+}
+
+/* proper colors not working */
+
+.form-control {
+    background-color: rgba(40, 40, 40, 0.5);;
+    color: rgba(55, 55, 55, 0.25);;
+    border: 1px solid #555;
+}
+
+.form-control:focus {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border-color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004080;
+}
+
+.alert {
+    background-color: #222;
+    color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+}
+
+.text-muted {
+    color: #aaaaaa !important;
+}
+
+
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004080;
+}
+
+.alert {
+    background-color: #222;
+    color: #ff6b6b;
+    border: 1px solid #ff6b6b;
+}
+
+.text-muted {
+    color: #aaaaaa !important;
+}
+
+/* Apply the same background and border styling to the modal */
+.modal-content {
+    background-color: rgba(55, 55, 55, 1);  /* Grey background for modal content */
+    border-radius: 0.375rem;                    /* Rounded corners */
+    border: 1px solid #6c757d;                  /* Matching border color */
+    color: white;                               /* White text color for consistency */
+}
+
+/* Modal Header */
+.modal-header {
+    border-bottom: 1px solid #6c757d;           /* Darker border at the bottom */
+}
+
+/* Modal Footer */
+.modal-footer {
+    border-top: 1px solid #6c757d;              /* Darker border at the top */
+}
+
+/* Modal Close Button */
+.modal-close {
+    background-color: transparent;              /* Transparent background for close button */
+    color: grey;                               /* White text */
+    border: none;                               /* Remove default border */
+}
+
+/* Hover effect for modal close button */
+.modal-close:hover {
+    color: #ff6b6b;                             /* Red color on hover */
+}
+
+/* Input fields within the modal */
+.modal-body .form-control {
+    background-color: rgba(40, 40, 40, 0.5);    /* Dark background for input fields */
+    color: rgba(55, 55, 55, 0.25);              /* Lighter text color */
+    border: 1px solid #555;                     /* Border color for inputs */
+}
+
+/* Focus effect for input fields */
+.modal-body .form-control:focus {
+    background-color: #1e1e1e;                  /* Dark background on focus */
+    color: #ffffff;                             /* White text on focus */
+    border-color: #007bff;                      /* Blue border on focus */
+}
+
+/* Button in modal footer */
+.modal-footer .btn-primary {
+    background-color: #007bff;                  /* Blue background */
+    border-color: #007bff;                      /* Blue border */
+}
+
+/* Button hover effect */
+.modal-footer .btn-primary:hover {
+    background-color: #0056b3;                  /* Darker blue on hover */
+    border-color: #004080;                      /* Darker border color */
+}
+
+/* Apply same hover and border effect to modal buttons */
+.modal-body button:hover, .modal-footer button:hover {
+    background-color: rgba(73, 80, 87, 0.25);   /* Grey hover effect for buttons */
+    border-color: #495057;                       /* Matching border color */
+}
+
+/* Style for modal inputs */
+.modal-body .form-label {
+    color: white;  /* White label text for inputs */
+}
